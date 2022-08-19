@@ -1,0 +1,64 @@
+str1="hai"
+print(str1)
+str2="""hello,
+python"""
+print(str2)
+a="Python"
+for i in a:
+    print(i)
+print(a[0])
+print(a[0:4])
+print(a[::-1])
+print(len(a))
+print("th" in a)
+print(a[-10:-4])
+print(a.upper())
+print(a.lower())
+b=" Hello,world! "
+print(b.strip())
+b=b.strip()
+print(b)
+print(b.split(","))
+c="hai,"
+d="hello"
+print(c+d)
+year=2022
+month=5
+date=6
+txt="Today:(year-{})/(month-{})/(date-{})"
+print(txt.format(year,month,date))
+today="{2}-{1}-{0}"
+print(today.format(year,month,date))
+c="programming Language"
+print(c.capitalize())
+print(c.casefold())
+print(c)
+print(c.upper())
+print(c.lower())
+print(c.count("a"))
+print(c.center(20))
+print(c.endswith("a"))
+t="h\te\tl\tl\to"
+print(t.expandtabs(9))
+print(c.find("a"))
+print(c.index("a"))
+print(c.isalnum())
+d="programming"
+print(d.isalpha())
+print(d.isdecimal())
+print(d.isdigit())
+print(c.isidentifier())
+print(d.isidentifier())
+e="123";
+print(e.isnumeric())
+print(a.istitle())
+print("0".join(e))
+f="    Python"
+print(f.lstrip())
+x=f.maketrans("n","m")
+print(f.translate(x))
+print(e.partition("2"))
+print(d.split("a"))
+print(d.split())
+print(d.splitlines())
+print(c.title())
